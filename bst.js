@@ -10,6 +10,7 @@ class Node{
   
   class BST{
       constructor(){
+          
           this.root = null;
       }
       // insert a new value 
@@ -46,11 +47,16 @@ class Node{
               }
               
              
-          }
+            }
           
-          }
+        }
       }
+
+      find(value){
+          if(this.root === null) return false;
+           
       }
+    }
   
   
   var tree = new BST();
